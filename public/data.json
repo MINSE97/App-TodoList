@@ -1,0 +1,11 @@
+{
+  "dummy": [
+    {
+      "id": "1",
+      "title": "일어나기",
+      "checked": "false",
+      "edit": "false"
+    },
+    { "id": "2", "title": "씻기", "checked": "true", "edit": "false" }
+  ]
+}

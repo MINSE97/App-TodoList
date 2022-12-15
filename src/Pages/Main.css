@@ -1,0 +1,117 @@
+#todo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo_box {
+  width: 50vw;
+  height: 80%;
+  background-color: aliceblue;
+  border-radius: 50px;
+}
+
+.todo_nav {
+  display: flex;
+  margin: 30px;
+  font-size: 30px;
+  flex-direction: column;
+}
+
+.top_nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom_nav {
+  height: 60px;
+  margin-top: 30px;
+  font-size: 25px;
+  color: grey;
+}
+
+.todoList_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.todoList {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid black;
+}
+
+.todoText {
+  margin-left: 10px;
+}
+
+.add_text:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  width: 50%;
+}
+
+.footer {
+  font-size: 45px;
+  transform: rotate(0deg);
+  transition: 0.5s;
+  margin-right: 20px;
+}
+
+.after {
+  transform: rotate(45deg);
+  transition: 0.5s;
+}
+
+.addModal_container {
+  width: 50%;
+  display: none;
+  position: absolute;
+  margin-top: 600px;
+}
+
+.addModal_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(198, 210, 224);
+  height: 100px;
+  border-radius: 0 0 50px 50px;
+}
+
+.open {
+  display: block;
+}
+
+.modal_text {
+  height: 30px;
+  width: 200px;
+}
+
+.line {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.fontAweSomeIcon:hover {
+  cursor: pointer;
+}
+
+.style {
+  margin-left: 10px;
+}
+
+.editInputBox {
+  margin-left: 8px;
+  height: 20px;
+}
